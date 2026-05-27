@@ -1,0 +1,12 @@
+安装：
+npm install -g json-server
+
+启动：
+json-server --watch db.json
+
+API示例：
+GET     /posts
+GET     /posts/1
+POST    /posts
+PUT     /posts/1
+DELETE  /posts/1
